@@ -562,7 +562,8 @@ a {
 	padding-left: 14px;
 }
 .electricity{
-	width: 90px;
+	scale: 2;
+	margin-bottom: 3rem;
 }
 @media (min-width: 992px) {
 	.complaint {

@@ -5,65 +5,66 @@
 		margin: 0 0 30px;
 	}
 	/*Banner*/
-	.yoga-template .banner .top-bar-left a {
+	.phanchayat-template .banner .top-bar-left a {
 		font-size:17px;
 	}
-	.yoga-template .banner .banner-content .content-col {
+	.phanchayat-template .banner .banner-content .content-col {
 		padding-left: 30px;
 	}
 	/*Service*/
-	.yoga-template .service-section .service-detail > div {
+	.phanchayat-template .service-section .service-detail > div {
 		margin-bottom: 40px;
 	}
-	.yoga-template .best-class-club .detail-col-club {
+	.phanchayat-template .best-class-club .detail-col-club {
 		padding-right: 15px;
 	}
-	/*Class Yoga Club*/
-	.yoga-template .best-class-club .best-class-club-desc {
+	/*Class phanchayat Club*/
+	.phanchayat-template .best-class-club .best-class-club-desc {
 		padding: 60px 30px;
 	}
-	.yoga-template .best-class-club .best-class-club-img {
+	.phanchayat-template .best-class-club .best-class-club-img {
+		width: auto;
 		padding: 250px 0;
 	}
 	/*Advantages*/
-	.yoga-template  .advantages-section {
+	.phanchayat-template  .advantages-section {
 		padding: 60px 15px;
 	}
-	.yoga-template  .advantages-section {
-		background-image: url(../img/advantages-of-yoga-mobile.jpg);
+	.phanchayat-template  .advantages-section {
+		background-image: url(../img/advantages-of-phanchayat-mobile.jpg);
 	    background-size: cover;
 	    background-repeat: no-repeat;
 	    background-position: center center;
 	}
-	.yoga-template  .advantages-section .section-title{
+	.phanchayat-template  .advantages-section .section-title{
 		color: #fe86d4;
 	}
-	.yoga-template  .advantages-section .section-title-desc {
+	.phanchayat-template  .advantages-section .section-title-desc {
 		color: #fff;
 	}
-	.yoga-template .advantages-section .advantages-detail-title {
+	.phanchayat-template .advantages-section .advantages-detail-title {
 		color: #fe86d4;
     	margin-top: 10px;
 	}
-	.yoga-template .advantages-section .advantages-detail-desc {
+	.phanchayat-template .advantages-section .advantages-detail-desc {
 		color: #fff;
 	}
-	.yoga-template .advantages-section .advantages-detail-soul,
-	.yoga-template .advantages-section .advantages-detail-health,
-	.yoga-template .advantages-section .advantages-detail-relax,
-	.yoga-template .advantages-section .advantages-detail-energy,
-	.yoga-template .advantages-section .advantages-detail-mind,
-	.yoga-template .advantages-section .advantages-detail-meditat {
+	.phanchayat-template .advantages-section .advantages-detail-soul,
+	.phanchayat-template .advantages-section .advantages-detail-health,
+	.phanchayat-template .advantages-section .advantages-detail-relax,
+	.phanchayat-template .advantages-section .advantages-detail-energy,
+	.phanchayat-template .advantages-section .advantages-detail-mind,
+	.phanchayat-template .advantages-section .advantages-detail-meditat {
 		width: 100%;	
 		text-align: center;
 		margin: 0 auto 24px;
 	}
-	/*Yoga Place*/
-	.yoga-template .yogaPlace-section .yogaPlace-col > div{
+	/*phanchayat Place*/
+	.phanchayat-template .phanchayatPlace-section .phanchayatPlace-col > div{
 		margin-bottom: 40px;
 	}
 	/*Contact us*/
-	.yoga-template .contact-section .appointment 
+	.phanchayat-template .contact-section .appointment 
 	.appointment-form .box-select::before {
 	    content: "\f0dd";
 	    font-family: "Font Awesome 5 Free";
@@ -81,36 +82,36 @@
 	    border-radius: 3px;
 	    transform: translate(-50%, -50%);
 	}
-	.yoga-template .contact-section .appointment 
+	.phanchayat-template .contact-section .appointment 
 	.appointment-form .appointment-form-col-left {
 		padding-right: 15px;
 	}
-	.yoga-template .contact-section .appointment 
+	.phanchayat-template .contact-section .appointment 
 	.appointment-form .appointment-form-col-right {
 		padding-left: 15px;
 	    padding-right: 15px;
 	}
 	/* Trainers*/
-	.yoga-template .trainer-section .trainer-col {
+	.phanchayat-template .trainer-section .trainer-col {
 		margin-bottom: 0px;
 	}
-	.yoga-template .trainer-section .trainer-col > div{
+	.phanchayat-template .trainer-section .trainer-col > div{
 		margin-bottom: 40px;
 	}
 	/*Copyright*/
-	.yoga-template .footer .copyright,
-	.yoga-template .footer .copyright .social {
+	.phanchayat-template .footer .copyright,
+	.phanchayat-template .footer .copyright .social {
 		text-align: center;
 	}
 }
 @media (max-width: 767.98px)  { 
 	/*Banner*/
-	.yoga-template .banner .top-bar,
-	.yoga-template .banner .top-bar-right {
+	.phanchayat-template .banner .top-bar,
+	.phanchayat-template .banner .top-bar-right {
 		text-align: center;
 	}
 	/*Contact us*/
-	.yoga-template .contact-section .appointment 
+	.phanchayat-template .contact-section .appointment 
 	.appointment-form .box-select::before {
 	    content: "\f0dd";
 	    font-family: "Font Awesome 5 Free";
