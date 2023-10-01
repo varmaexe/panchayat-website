@@ -1,0 +1,573 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	color: #555;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: normal;
+	text-align: left;
+}
+h1,h2,h3,
+h4,h5,h6 {
+	font-size: inherit;
+	line-height: inherit;
+	font-family: 'Josefin Sans', sans-serif;	
+}
+h1,h2,h3,
+h4,h5,h6,p,ul,li,a,span {
+	margin:0;
+}
+a {
+	text-decoration: none;
+	color:#555;
+	cursor: pointer;
+}
+.main-container {
+	max-width: 1920px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.inside-container {
+	max-width: 940px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.sections-detail {
+	margin: 0 0 55px;
+}
+.section-title {
+	font-family: 'Roboto Slab', serif;
+	font-size: 28px;
+	line-height: 40px;
+	letter-spacing: 0.84px;
+	font-weight: 700;
+	color: #7b6cd5;
+	text-align: center;
+}
+.section-title-desc {
+	font-size: 15px;
+	line-height: 40px;
+	font-weight: 400;
+	letter-spacing: 0.45px;
+	color: #666;
+	text-align: center;
+}
+/*Banner*/
+.phanchayat-template .banner {
+	background-image: url(../img/header.jpeg);
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: auto;
+	color:#fff;
+	position: relative;
+}
+.phanchayat-template .banner .banner-overlay {
+	position: absolute;
+	top: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    background-color: rgba(0,0,0,.5);
+    z-index: 2;
+}
+.phanchayat-template .banner .top-bar{
+	padding:26px 15px; 
+	border-bottom: 1px solid #fff;
+}
+.phanchayat-template .banner .top-bar-left ,
+.top-bar-right {
+	padding-top: 24px;	
+	z-index: 3;
+}
+.phanchayat-template .banner .top-bar-left a {
+	color:#fff;
+	font-size: 18px;
+	letter-spacing: 0.18px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	vertical-align: middle
+}
+.phanchayat-template .banner .logo {
+	text-align: center;
+	z-index: 3;
+}
+.phanchayat-template .banner .top-bar-right {
+	text-align: right;
+}
+.phanchayat-template .banner .top-bar-right a {
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+	font-size: 18px;
+	letter-spacing: 0.18px;
+	font-weight: 400;
+	vertical-align: middle
+}
+.phanchayat-template .banner .top-bar-left a:hover,
+.phanchayat-template .banner .top-bar-right a:hover{
+	color:#fe86d4;
+	text-decoration: none;
+}
+.phanchayat-template .banner .top-bar-left i,
+.top-bar-right i {
+	font-size: 16px;
+    background-color: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    color: #3e2d40;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+.phanchayat-template .banner .banner-content {
+	padding: 126px 15px;
+}
+.phanchayat-template .banner .banner-content .content-col {
+	text-align: center;
+	z-index: 3;
+}
+.phanchayat-template .banner .banner-content .site-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: 700;
+	margin-bottom: 18px;
+	padding-right: 15px;
+}
+.phanchayat-template .banner .banner-content .site-title-desc {
+	font-size: inherit;
+	line-height: 25px;
+	letter-spacing: 0.45px;
+	margin-bottom: 51px;
+	width: 97%;
+}
+.phanchayat-template .banner .banner-content a.banner-btn {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.6px;
+	font-weight: 700;
+	padding: 21px 32px 19px;
+	background-color: #fe86d4;
+	color:#fff;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+.phanchayat-template .banner .banner-content a.banner-btn:hover {
+	text-decoration: none;
+	color: #7b6cd5;
+}
+/*Service*/
+.phanchayat-template .service-section {
+	padding: 62px 15px;
+}
+.phanchayat-template .service-section .service-detail {
+	text-align: center;
+}
+.phanchayat-template .service-section .service-detail a:hover {
+	text-decoration: none;
+}
+.phanchayat-template .service-section .service-detail a:hover .service-title{
+	text-decoration: none;
+	color: #fe86d4;
+}
+.phanchayat-template .service-section .service-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	line-height: 40px;
+	font-weight: 700;
+	letter-spacing: 0.75px;
+	color: #000;
+	margin-bottom: 15px;
+}
+.phanchayat-template .service-section .service-desc {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 25px;
+	font-weight: 400;
+	letter-spacing: 0.40px;
+}
+.phanchayat-template .service-section .service-detail-img {
+	max-width: 80px;
+ 	height: auto;
+}
+
+.phanchayat-template .best-class-club .detail-col-club{
+	padding-bottom: 10px;
+}
+.phanchayat-template .best-class-club .best-class-club-desc {
+	background-color: #f5f5f5;
+	padding: 60px 15px;
+}
+.phanchayat-template .best-class-club .best-class-club-desc .club-section-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    line-height: 40px;
+    color: #7b6cd5;
+    font-weight: 600;
+	text-align: left;
+}
+.phanchayat-template .best-class-club .best-class-club-desc ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 13px;
+}
+.phanchayat-template .best-class-club .best-class-club-desc ul li {
+  padding-left: 1.3em;
+  margin-bottom: 10px;
+}
+.phanchayat-template .best-class-club .best-class-club-desc ul li:before {
+  content:"\f0e7";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline-block;
+  margin-left: -1.3em; 
+  width: 1.3em;
+  font-size: 12px;
+  line-height: 40px;
+  color: #7b6cd5; 
+}
+.phanchayat-template .best-class-club .best-class-club-img {
+	background-image: url(../img/Untitled\ design.gif);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+/*Advantages*/
+.phanchayat-template .advantages-section {
+	padding: 60px 15px 270px;
+}
+.phanchayat-template .advantages-section {
+	background-image: url(../img/resources.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.phanchayat-template .advantages-section .advantages-detail a:hover {
+	text-decoration: none;
+}
+.phanchayat-template .advantages-section .advantages-detail a:hover .advantages-detail-title {
+	text-decoration: none;
+	color: #fe86d4;
+}
+.phanchayat-template .advantages-section .advantages-detail-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.6px;
+	font-weight: 600;
+	color: #444;
+}
+.phanchayat-template .advantages-section .advantages-detail-desc {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 25px;
+	letter-spacing: 0.45px; 
+	color: #666;
+}
+.phanchayat-template .advantages-section .advantages-detail-img svg{
+	max-width: 50px;
+	height: auto;
+}
+.phanchayat-template .advantages-section .advantages-detail-soul,
+.phanchayat-template .advantages-section .advantages-detail-health,
+.phanchayat-template .advantages-section .advantages-detail-relax {
+	text-align: right;
+	width: 50%;	
+}
+.phanchayat-template .advantages-section .advantages-detail-soul {
+	margin: 0 0 24px auto; 
+}
+.phanchayat-template .advantages-section .advantages-detail-health {
+	margin: 0 auto 24px;
+}
+.phanchayat-template .advantages-section .advantages-detail-energy,
+.phanchayat-template .advantages-section .advantages-detail-mind,
+.phanchayat-template .advantages-section .advantages-detail-meditat {
+	width: 50%;	
+}
+.phanchayat-template .advantages-section .advantages-detail-energy {
+	margin-bottom: 24px;
+}
+.phanchayat-template .advantages-section .advantages-detail-mind {
+	margin: 0 auto 24px;
+}
+.phanchayat-template .advantages-section .advantages-detail-meditat {
+	margin-left: auto; 
+}
+/*phanchayat Place*/
+.phanchayat-template .memberHeads-section {
+	padding: 60px 15px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+.phanchayat-template .memberHeads-section .memberHeads-img {
+	width: 145px;
+    height: 145px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 auto 18px;
+    overflow: hidden;
+}
+.phanchayat-template .memberHeads-section .memberHeads-img .memberHeads-in-img {
+	max-width: 145px;
+    border-radius: 50%;
+}
+.phanchayat-template .memberHeads-section .memberHeads-col a:hover {
+	text-decoration: none;
+}
+.phanchayat-template .memberHeads-section .memberHeads-col a:hover .memberHeads-title {
+	text-decoration: none;
+	color: #fe86d4;
+}
+.phanchayat-template .memberHeads-section .memberHeads-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 22px;
+	line-height: 40px;
+	letter-spacing: 0.88px;
+	font-weight: 600;
+	color: #434343;
+}
+.phanchayat-template .memberHeads-section .memberHeads-desc {
+	font-family: inherit;
+	font-size: 15px;
+	line-height: 25px;
+	letter-spacing: 0.45px;
+	font-weight: 400;
+	color: #666;
+}
+/*Contact us*/
+.phanchayat-template .contact-section {
+	padding: 60px 15px; 
+	
+}
+
+.phanchayat-template .contact-section .appointment {
+ 	border: 1px solid #666; 
+ 	border-radius: 3px;
+ 	padding: 30px 28px 25px;
+}
+.phanchayat-template .contact-section .appointment .appointment-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+	text-align: center;
+	color:#7b6cd5;
+}
+.phanchayat-template .contact-section .appointment .appointment-desc {
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.56px;
+	color:#888;
+	text-align: center;
+}
+ .phanchayat-template .contact-section .appointment .appointment-form {
+ 	margin-top: 40px;
+ }
+.phanchayat-template .contact-section .appointment 
+.appointment-form  .appointment-form-input {
+	border: 1px solid #999;
+	height: 38px;
+	margin-bottom: 9px;
+	font-size: 12px;
+	line-height: 40px;
+	letter-spacing: 0.48px;
+}
+.phanchayat-template .contact-section .appointment 
+.appointment-form  .data-input {
+	text-transform: uppercase;
+}
+.phanchayat-template .contact-section .appointment 
+.appointment-form .appointment-form-text {
+	border: 1px solid #999;
+	margin-bottom: 20px;
+	font-size: 12px;
+	line-height: 40px;
+	letter-spacing: 0.48px;
+}
+.phanchayat-template .contact-section .appointment 
+.appointment-form .box-select::before {
+    content: "\f0dd";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 41%;
+    right: -5%;
+    width: 35px;
+    height: 38px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 37px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(123, 108, 213);
+    font-weight: 600;
+    border-radius: 3px;
+    transform: translate(-50%, -50%);
+}
+.phanchayat-template .contact-section .appointment 
+.appointment-form .appointment-form-col-left {
+	padding-right: 7px;
+}
+.phanchayat-template .contact-section .appointment 
+.appointment-form .appointment-form-col-right {
+	padding-left: 7px;
+    padding-right: 7px;
+}
+
+.phanchayat-template .contact-section .appointment 
+.appointment-form .appointment-form-btn {
+	width: 100%;
+    padding: 18px 0 13px;
+    background-color: #7b6cd5;
+    border: 1px solid #7b6cd5;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+
+/* expertss*/
+.phanchayat-template .experts-section {
+	padding: 60px 15px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+.phanchayat-template .experts-section .experts-col {
+	margin-bottom: 40px;
+}
+.phanchayat-template .experts-section .experts-img {
+	width: 182px;
+    height: 182px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 auto 12px;
+    overflow: hidden;
+    border: unset;
+} 
+.phanchayat-template .experts-section .experts-img .experts-in-img {
+	max-width: 182px;
+	border-radius: 50%;
+}
+.phanchayat-template .experts-section .experts-col a:hover {
+	text-decoration: none;
+}
+.phanchayat-template .experts-section .experts-col a:hover .experts-title {
+	text-decoration: none;
+	color: #fe86d4;
+}
+.phanchayat-template .experts-section .experts-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: 0.8px;
+	font-weight: 600;
+	color: #444;
+}
+.phanchayat-template .experts-section .experts-desc {
+	font-family: inherit;
+	font-size: 15px;
+	line-height: 40px;
+	letter-spacing: 0.45px;
+	font-style: italic;
+	font-weight: 400;
+	color: #666;
+}
+/*Join Us*/
+.phanchayat-template .join-us-section {
+	padding: 55px 15px;
+	text-align: center;
+}
+.phanchayat-template .join-us-section .join-us-btn {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.6px;
+	font-weight: 700;
+	color:#fff;
+	text-transform:uppercase; 
+	background-color: #7b6cd5;
+	border: 1px solid #7b6cd5;
+	border-radius: 3px;
+	padding: 21px 52px 19px 53px;
+}
+.phanchayat-template .join-us-section .join-us-btn:hover {
+	text-decoration: none;
+	color: #fe86d4;
+}
+.phanchayat-template .join-us-section .join-us-call {
+	font-family: inherit;
+	font-size: 16px;
+	line-height: 40px;
+	letter-spacing: 0.64px;
+	margin-top: 22px;
+}
+.phanchayat-template .join-us-section .join-us-phone-nr {
+	font-family: inherit;
+	font-size: 18px;
+	line-height: inherit;
+	letter-spacing: inherit;
+	font-weight: 600;
+	color: #222;
+}
+.phanchayat-template .join-us-section .join-us-phone-nr:hover {
+	text-decoration: none;
+	color: #fe86d4;
+}
+/*Copyright*/
+.phanchayat-template .footer .copyright {
+	padding: 50px 15px;
+	background-color: #7b6cd5;
+	color: #fff;
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 26px;
+}
+.phanchayat-template .footer .copyright .created-by {
+	color: #fff;
+}
+.phanchayat-template .footer .copyright .created-by:hover {
+	color: #fe86d4;
+	text-decoration: none;
+}
+.phanchayat-template .footer .copyright .social {
+	text-align: right;
+	font-size: 14px;
+	line-height: 26px;
+}
+.phanchayat-template .footer .copyright .social a {
+	color: #fff;
+}
+.phanchayat-template .footer .copyright .social a:hover {
+	color: #fe86d4;
+}
+.phanchayat-template .footer .copyright .social .fab {
+	padding-left: 14px;
+}
+.electricity{
+	width: 90px;
+}
+@media (min-width: 992px) {
+	.complaint {
+	  -ms-flex: 0 0 50%;
+	  flex: 0 0 50%;
+	  max-width: 50%;
+	}
+  }
