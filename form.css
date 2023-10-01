@@ -82,7 +82,7 @@
   }
   
   .contact_us_2 .container-block.form-wrapper {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     max-width: 799px;
     text-align: center;
     padding-top: 50px;
@@ -223,20 +223,9 @@
     margin-left: auto;
   }
   
-  .contact_us_2 .social-media-links {
-    width: 250px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-  }
+
   
-  .contact_us_2 .link-img {
-    width: 30px;
-    height: 30px;
-  }
+ 
   
   .contact_us_2 .text-blk.input-title {
     text-align: left;
@@ -253,7 +242,7 @@
   }
   
   .contact_us_2 ::placeholder {
-    color: #dadada;
+    color: #000000;
   }
   
   .contact_us_2 .blueBG {
