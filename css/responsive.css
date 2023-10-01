@@ -31,23 +31,25 @@
 		padding: 60px 15px;
 	}
 	.phanchayat-template  .advantages-section {
-		background-image: url(../img/advantages-of-phanchayat-mobile.jpg);
+		background: rgb(227,226,246);
+		background: linear-gradient(357deg, rgba(227,226,246,1) 0%, rgba(158,225,238,1) 32%, rgba(143,143,221,1) 65%); 
 	    background-size: cover;
 	    background-repeat: no-repeat;
 	    background-position: center center;
 	}
 	.phanchayat-template  .advantages-section .section-title{
-		color: #fe86d4;
+		color: #b000fb;
+		
 	}
 	.phanchayat-template  .advantages-section .section-title-desc {
-		color: #fff;
+		color: black;
 	}
 	.phanchayat-template .advantages-section .advantages-detail-title {
-		color: #fe86d4;
+		color: #b000fb;
     	margin-top: 10px;
 	}
 	.phanchayat-template .advantages-section .advantages-detail-desc {
-		color: #fff;
+		color: black;
 	}
 	.phanchayat-template .advantages-section .advantages-detail-soul,
 	.phanchayat-template .advantages-section .advantages-detail-health,
